@@ -11,3 +11,4 @@ In the other hand if you are willing to help someone and earn some cash. This is
 ## Current Progress
 We are still in the early stages of development. Further updates will be displayed in this page in due course. 
 ### ER Diagram (draft v0.1)
+![lend-a-hand-er](https://user-images.githubusercontent.com/69723438/233851916-93f916d0-db64-4764-a458-8e77d7efee9b.jpg)
