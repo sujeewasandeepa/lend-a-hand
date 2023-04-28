@@ -17,3 +17,7 @@ We are still in the early stages of development. Further updates will be display
 ### SRS Document
 If you want further information about our project, you are free to read our SRS document. We will update through out the requirement gathering phase. 
 ( work on progress... SRS will be released within next week )
+### Build the docker image
+`sudo docker build -t lend-a-hand-fe .`
+### Run the docker images
+`sudo docker run -p 8080:8000 lend-a-hand-fe`
