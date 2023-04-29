@@ -16,7 +16,8 @@ We are still in the early stages of development. Further updates will be display
 ![handy-hero-er](https://user-images.githubusercontent.com/69723438/233851916-93f916d0-db64-4764-a458-8e77d7efee9b.jpg)
 ### SRS Document
 If you want further information about our project, you are free to read our SRS document. We will update through out the requirement gathering phase. 
-( work on progress... SRS will be released within next week )
+https://openuni-my.sharepoint.com/:w:/g/personal/s92068610_ousl_lk/Eam-1yskiydHmRFsHHo-RzUBuwS8jx_xNzc4mweiLakezA?e=YO3b8H
+
 ### Build the docker image
 `sudo docker build -t lend-a-hand-fe .`
 ### Run the docker images
