@@ -58,7 +58,7 @@ export default function SignUp() {
     <>
       <h1 className="title is-1 has-text-centered my-5">Sign Up</h1>
       <div className="half-width">
-        <form className="mx-2" onSubmit={handleSubmit}>
+        <form className="mx-2 mb-2" onSubmit={handleSubmit} >
           <div className="field">
             <div className="label">Name</div>
             <div className="control">
