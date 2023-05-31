@@ -68,7 +68,7 @@ export default function SignUp() {
                 type="text"
                 pattern="^[A-Za-z]+$"
                 className="input"
-                required="true"
+                required={true}
               />
             </div>
           </div>
@@ -80,7 +80,7 @@ export default function SignUp() {
                 placeholder="Address"
                 name="address"
                 type="text"
-                required="true"
+                required={true}
                 pattern="^[a-zA-Z0-9,]+$"
                 className="input"
               />
@@ -92,7 +92,7 @@ export default function SignUp() {
             <div className="control">
               <input
                 placeholder="NIC"
-                required="true"
+                required={true}
                 name="nic"
                 type="text"
                 pattern="^[vV0-9,]+$"
@@ -107,7 +107,7 @@ export default function SignUp() {
               <input
                 placeholder="Phone Number"
                 name="phone_number"
-                required="true"
+                required={true}
                 type="text"
                 pattern="^[0-9+]+$"
                 className="input"
@@ -128,7 +128,7 @@ export default function SignUp() {
               )}
               <input
                 placeholder="Password"
-                required="true"
+                required={true}
                 type="password"
                 name="password"
                 pattern="^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)[a-zA-Z\d]{8,}$"
@@ -138,7 +138,7 @@ export default function SignUp() {
               <input
                 placeholder="Confirm Password"
                 pattern="^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)[a-zA-Z\d]{8,}$"
-                required="true"
+                required={true}
                 type="password"
                 className="input mt-1"
                 onChange={(e) => setConfirmPassword(e.target.value)}

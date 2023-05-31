@@ -29,7 +29,7 @@ export default function Login() {
             <div className="control">
               <input
                 placeholder="NIC"
-                required="true"
+                required={true}
                 name="nic"
                 type="text"
                 pattern="^[vV0-9,]+$"
@@ -42,7 +42,7 @@ export default function Login() {
             <div className="control">
               <input
                 placeholder="Password"
-                required="true"
+                required={true}
                 type="password"
                 name="password"
                 pattern="^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)[a-zA-Z\d]{8,}$"
