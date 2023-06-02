@@ -29,10 +29,11 @@ export default function SignUp() {
         address: data.get("address"),
         NIC: data.get("nic"),
         phone_number: data.get("phone_number"),
-        hashed_password: data.get("password"),
+        password: data.get("password"),
+        email: data.get("email"),
       };
 
-      console.log(form.hashed_password);
+      console.log(form.password);
       const res = await fetch("http://localhost:4000/api/employer", {
         method: "POST",
         body: JSON.stringify(form),
@@ -82,6 +83,20 @@ export default function SignUp() {
                 type="text"
                 required={true}
                 pattern="^[a-zA-Z0-9,]+$"
+                className="input"
+              />
+            </div>
+          </div>
+
+          <div className="field">
+            <div className="label">Email</div>
+            <div className="control">
+              <input
+                placeholder="your@email.com"
+                required={true}
+                name="email"
+                type="email"
+                pattern="^[a-zA-Z0-9.,@]+$"
                 className="input"
               />
             </div>
