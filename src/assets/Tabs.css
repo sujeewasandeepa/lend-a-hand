@@ -1,0 +1,9 @@
+#tabs-div {
+  min-width: 350px;
+  width: 25%;
+  margin: auto;
+}
+
+#tabs-div li {
+  width: 150px;
+} 
