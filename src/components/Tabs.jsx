@@ -22,7 +22,7 @@ export default function Tabs (props) {
 
   return (
   <>
-  <div id="tabs-div" class="tabs is-toggle">
+  <div id="tabs-div" className="tabs is-toggle">
     <ul>
       <li className={`${adsActive}`} onClick={handleAdsClick}>
         <a>
